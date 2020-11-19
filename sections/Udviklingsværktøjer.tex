@@ -1,7 +1,7 @@
 
 \chapter{Udviklingsværktøjer}\label{ch:udviklingsværktøjer}
 
-For at det kan lykkes med at organisere den bedste agile tilgang til projektet, skal teamet sørge for at få det bedst mulige ud af den tid og ressourcer teamet har. Dette problem bliver specielt addresseret ved Scrums agile metoder. 
+For at det kan lykkes med at organisere den bedste agile tilgang til projektet, skal teamet sørge for at få det bedst mulige ud af den tid og ressourcer teamet har. Dette problem bliver specielt addresseret senere hen, men først er det vigtigt at danne et overblik over hvilke agile metoder der skal tages i betragtning til dette projekt. En agil metode, sørger nettop for at brugeren for får opdateringerne i små bider, på den bedst mulige. Dette er der forskelige måder at gøre på, derfor vil der tages hånd om 3 forskellige, så som Scrum, XP og Kanban. 
 
 \section{Scrum}
 
@@ -28,17 +28,82 @@ Disse terminologier er:
     \item Velocity. Velocity estimerer hvilke genstande fra Product Backloget teamet kan genneføre gennem et sprint.
 \end{itemize}
 
+Hvad der gør specifikt Scrum sen agile metode, er at den følger principperne, dog med fokus på at anbringe et framework, for hvordan et projekt organiseres. På figur 2.1, ses principperne for det agile manifest. Sammenlignet med terminologierne for oven er det tydeligt, at det følger det agile manifest. \cite{Sommerville} 
+ 
+
 \section{XP}
 
+Endnu en form for agile medtoder er, Extreme Programming (XP), som er en metode at lave software på, ved at tage alle de ting som virker og tage det så ekstremt som mulig, dette gør XP unik ift andre iterative udviklingsmetoder. Der findes også ligehedder mellem XP og andre, så som, at et team planlægger et stykke arbejde, som udarbejdes i løbet af nogle få uger, præcis som i Scrum, hvor man planlægger et sprint på få 2-4 uger. Et eksempel på hvordan XP tager ting til ekstremerne er, pair programming. Pair programming er en udviklings teknik, hvori 2 programmør sidder sammen om en computer. Den ene, driveren, er personen som skriver koden, den anden oberster hver enste linje af koden som driveren udvikler. Forskning har vist, at code reviews er en af de bedste metoder til ar finde fejl i koden, så derfor har XP pair programming.\cite{WhatisXP}
+
+XP, blev først brugt i et projekt 6. Marts 1996. Siden hen, har det vist sig, at være meget succesfuld, i mange forskellige virksomheder, rundt omkring i verden. Snakkes der om XP, er der nogle bestemte værdier og principper man skal tage i betragtning, dette vil være XP’s 5 værdier og 12 praktikker. Med de 5 værdier og 12 praktikker, kan et projekt forbedres markant bedre, da XP sætter fokus i, konstant kommunikation med kunden og egne udviklere. Det er succesfuld, da det bygger på kundens tilfredstillelse, og det gør dette ved at give kunden hvad kunden har brug for, derved vil XP også skabe en hvis fleksibel rutine, hvis kunden kommer med nye krav for enden af en cyklus. 
+
+De 5 værdier: 
+
+\begin{itemize}
+    \item Respekt, både overfor hinanden og stakeholders. 
+
+    \item Kommunikation, som er kritisk for succes. 
+
+    \item Simpelt som muligt, menes med at jo simplere det er, desto bedte 
+
+    \item Feedback, som kan være fra kunder, brugere og andre. 
+
+    \item Mod. Mod til at lave ting. Mod til at eksperimentere. Mod til at sige nej til kunderne. Det behøver ikke være formelt. 
+\end{itemize}
+
+De 12 praktikker: 
+
+
+
+\begin{itemize}
+    \item Planning game
+
+    \item Smal realeases
+  
+    \item Metaphor
+
+    \item Simple design 
+
+    \item Define test first
+
+    \item Refactoring
+ 
+    \item Pair programming
+
+    \item Collective ownership
+   
+    \item Continuos integration 
+
+    \item 37 hour workweek 
+
+    \item On-site customer 
+    
+    \item along Coding standarts 
+
+
+\end{itemize}
+
+XP minder generelt meget om Scrum, de kræver begge teams til at arbejde iterativt og med tæt samarbejde. Hvor de afviger er pratikker så som Continues Intergration, Refactoring og Pair Programming, som er essentielle for at få den iterative proces til at virke. Hvis en af praktikkerne i XP lider, så kommer resten til at lide. 
 
 
 
 \section{Kanban}
 
+Den sidste form for agile metoder der vil tages i overvejelse er Kanban. Kanban kommer originalt fra Toyota, som et lidt af en grundprincip for lean developtment og noget andet, som kaldes for JIT (Just in time). \cite{slides} Udvikler et team i Kanban, så skal teamet kun fokuserer på Kanbans tre regler, i modsætning til Scrum som har ni regler og XP med 13.        De tre regler siger følgende: 
+
+1. Visualise the workflow. (Som er dit Kanban board)
+
+2. Limit WIP. (work in Progress)
+
+3. Measure average lead time.
+
+Så, Start med at visualiser dit Kanban board (som minder om et scrum board). Efterfuldt af dette, så skal der sættes en grænse for hvor mange opgaver eller genstande, der må være i de forskellige kategorier på dit board (WIP). Denne er vigtigt, for i Kanban, når man er færdig med en opgave, så tilføjer man en ny i ‘ongoing’ kategorien, imodsætning til Scrum, hvori man venter med at sprintet for at tilføje nye opgaver fra produkt backlogge. Med andre ord, Scum: Nye prioriteter, når sprintet ender. Kanban: Nye prioriteter når der er plads til det.\cite{slides} WIP sørger nemlig for at, hvis noget går i stå vil der ikke være en overbelastning af gentande at arbejde med, så når grænsen for WIP er nået må der ikke tilføjes flere genstande før opgaverne er løst. Men så enkelt er det heller ikke, for hvis WIP er for lille ender teamet med udviklere uden noget at give sig til, og hvis det er for stort så skær der en overbelastning. Frihedens kommer i at teamet kan eksperimenter, hvad der vil virke og hvad der ikke vil. 
+
 
 \section{Metode valg}
 
 
- 
+Nu hvor 3 forskellige metoder for en agil tilgang er kort beskrevet, kan gruppen overveje hvilken tilgang der besluttes for. Her er der en bestemt faktor, som er vigtigt for beslutningen, nemlig at teamet tidligere ikke har arbejdet med agile metoder før. Så, hvis teamet ikke er bekendt med agile metoder, vil det optimale være, at sørge for det ikke skal være for få regler, for vil højst sandsygeligt forsage et ustabil projekt. Derfor vil Kanban udelukkes, da der kun er få regler at følge, vil dette skabe ustabilitet for et teamet der ikke har benyttet agile metoder førhen. Nu hvor Kanban er udelukket er gruppen forladt med XP og Scrum. Her vil Scrum være et godt valg for gruppen, da det har en fast tilgang til hvordan man håndterer en agil tilgang, samt nogle faste regler og roller. Genstande, så som daily scrum, hvor gruppen møder først på dagen i et kort møde og opdater hinanden vil have en høj værdi, især for en gruppe der et ny til agile tilgange. Rollerne kan fordeles til gruppens styrker og svageheder også. Hertil vil gruppen eksperimenter med elementer, så som velocity og faste sprints, derfor også udvide forståelsen og erfaringer med agile metoder. Hertil vurderes XP også til at skabe en god værdi for gruppen, da XP har bestemte praktikker, så som Pair Programming, Planning game og Test Driven Development. Eftersom, at Scrum er en projekt håndterings metode og XP fokuser på selve metoden, har gruppen konkluderet at en sammensætning af Scrum og XP vil skabe den bedste værdi for teamet. 
 
+I næste afnist er fokuset lagt i hvordan gruppen har håndteret brugen af Scrum og XP, med eksempler fra projekt forløbet. 
 
