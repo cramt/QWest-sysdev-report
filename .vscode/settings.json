@@ -67,5 +67,20 @@
             "env": {}
         }
     ],
-    "latex-workshop.latex.recipe.default": "lastUsed"
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/*.log": true,
+        "**/*.thm": true,
+        "**/*.toc": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+        "**/*.out": true,
+        "**/*.tmp": true,
+        "**/*.run.xml": true,
+        "**/*.synctex(busy)": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/_minted-*": true
+    }
 }
