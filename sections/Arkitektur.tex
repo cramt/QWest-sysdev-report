@@ -1,10 +1,10 @@
 \chapter{Arkitektur}\label{ch:Arkitektur}
 
-Arkitekturen af programmet bestemmer hvordan systemet skal organiseres, samt hvordan de forskellige komponenter skal kommunikere med hinanden. Ved brug af den agile tilgang, er software design noget som burde være i fokus i starten af projektet, da inkrementel udvikling af arkitekturen ofte kan give vanskeligheder. I den agile tilgang, hvor der laves ændringer tit, og hvor nye komponenter skal kobles sammen med resten af systemet, kan arkitekturen hurtigt blive noget rod. refaktorering af de enkelte komponenter kan være nemt, men refaktorering af selve arkitekturen kan være en dyr process, da der efterhånden skal tilpasses flere og flere komponenter. Dette vil ende ud i en forsinkelse af systemets videreudvikling, som påvirker hvor effektivt man kan implementere nyt senere i processen. Derfor er arkitekturen en proces, som gerne skal fastslåes i starten af et software projekt. \cite{Sommerville}
+Arkitekturen af programmet bestemmer hvordan systemet skal organiseres, samt hvordan de forskellige komponenter skal kommunikere med hinanden. Ved brug af den agile tilgang, er software design noget som burde være i fokus i starten af projektet, da inkrementel udvikling af arkitekturen ofte kan give vanskeligheder. I den agile tilgang, hvor der ofte laves ændringer, og hvor nye komponenter skal kobles sammen med resten af systemet, kan arkitekturen hurtigt blive noget rod. Refaktorering af de enkelte komponenter kan være nemt, men refaktorering af selve arkitekturen kan være en dyr process, da der efterhånden skal tilpasses flere og flere komponenter. Dette vil ende ud i en forsinkelse af systemets videreudvikling, som påvirker hvor effektivt man kan implementere nyt senere i processen. Derfor er arkitekturen en proces, som gerne skal fastslåes i starten af et software projekt. \cite{Sommerville}
 
 Til dette har gruppen forudbestemt, hvordan arkitekturen skal se ud inden implementering af systemet. Her har der været fokus på hvilke services der skulle være, samt hvordan de skal kommunikere med hinanden. Der er her udviklet en arkitektur model, domænemodel og en relationel model. De beskriver tilsammen de forskellige projekter i applikationen, samt model- og database design. 
 
-\begin{figure}
+\begin{figure}[H]
     \includegraphics[width=\linewidth]{figures/Architecture.png}
     \caption{Systemets generelle arkitektur}
     \label{fig:Architecture}
