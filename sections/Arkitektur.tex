@@ -1,8 +1,8 @@
 \chapter{Arkitektur}\label{ch:Arkitektur}
 
-Arkitekturen af programmet bestemmer hvordan systemet skal organiseres, samt hvordan de forskellige komponenter skal kommunikere med hinanden. Ved brug af den agile tilgang, er software design noget som burde være i fokus i starten af projektet, da inkrementel udvikling af arkitekturen ofte kan give vanskeligheder. I den agile tilgang, hvor der ofte laves ændringer, og hvor nye komponenter skal kobles sammen med resten af systemet, kan arkitekturen hurtigt blive noget rod. Refaktorering af de enkelte komponenter kan være nemt, men refaktorering af selve arkitekturen kan være en dyr process, da der efterhånden skal tilpasses flere og flere komponenter. Dette vil ende ud i en forsinkelse af systemets videreudvikling, som påvirker hvor effektivt man kan implementere nyt senere i processen. Derfor er arkitekturen en proces, som gerne skal fastslåes i starten af et software projekt. \cite{Sommerville}
+Arkitekturen af programmet bestemmer hvordan systemet skal organiseres, samt hvordan de forskellige komponenter skal kommunikere med hinanden. Ved brug af den agile tilgang er software designet noget, som burde være i fokus i starten af projektet, da inkrementel udvikling af arkitekturen ofte kan give vanskeligheder. I den agile tilgang, hvor der ofte laves ændringer, og hvor nye komponenter skal kobles sammen med resten af systemet, kan arkitekturen hurtigt blive noget rod. Refaktorering af de enkelte komponenter kan være nemt, men refaktorering af selve arkitekturen kan være en dyr process, da der efterhånden skal tilpasses flere og flere komponenter. Dette vil ende ud i en forsinkelse af systemets videreudvikling, som påvirker hvor effektivt man kan implementere nyt senere i processen. Derfor er arkitekturen en proces, som gerne skal fastslåes i starten af et software projekt.\cite{Sommerville}
 
-Til dette har gruppen forudbestemt, hvordan arkitekturen skal se ud inden implementering af systemet. Her har der været fokus på hvilke services der skulle være, samt hvordan de skal kommunikere med hinanden. Der er her udviklet en arkitektur model, domænemodel og en relationel model. De beskriver tilsammen de forskellige projekter i applikationen, samt model- og database design. 
+Til dette har gruppen forudbestemt, hvordan arkitekturen skal se ud inden implementering af systemet. Her har der været fokus på hvilke services der skulle være, samt hvordan de skulle kommunikere med hinanden. Der er her udviklet en arkitektur model, domænemodel og en relationel model. De beskriver tilsammen de forskellige projekter i applikationen, samt model- og database design. 
 
 \begin{figure}[H]
     \includegraphics[width=\linewidth]{figures/Architecture.png}
@@ -18,7 +18,7 @@ Der er i arkitekturen taget højde for både admin adgang og bruger adgang. Dett
     \label{fig:Domain}
 \end{figure}
 
-Domænemodellen viser forholdende mellem de forskellige model-klasser i systemet. Til at starte med var der kun User, ProgressMap, GeopoliticalLocation, Country og Subdivision, da fokus var på at brugeren skulle kunne bruge deres eget kort til at se hvor meget af verden de havde set. Senere blev der introduceret Post, friends og friends requests, samt Group, sådan at man nu kunne dele sin profil og kort med sine venner. 
+Domænemodellen viser forholdende mellem de forskellige model-klasser i systemet. Til at starte med var der kun User, ProgressMap, GeopoliticalLocation, Country og Subdivision, da fokus var på at brugeren skulle kunne bruge deres eget kort til at se, hvor meget af verden de havde set. Senere blev der introduceret Post, friends og friends requests, samt Group, sådan at man nu kunne dele sin profil og kort med sine venner. 
 Formålet var at det så skulle være muligt at deles om et ProgressMap i en gruppe, og deles om opslag - det er her samtidighedsproblemet i projektet kommer i fokus.
 
 \begin{figure}

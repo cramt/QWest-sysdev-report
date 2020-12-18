@@ -5,34 +5,32 @@ For at det kan lykkes med at organisere den bedste agile tilgang til projektet, 
 
 \section{Scrum}
 
-Scrum var først introduceret tilbage i 1986, af 2 japanske business eksperter, der benyttede udtrykket som en form for produktudvikling, som skulle hjælpe med bedre organisering af stile projekter, samt skabe en form for overblik. Det var beskrevet, som en metode, der ville skabe mere fleksibilitet og hurtigere for produkt udvikling. Senere hen blev det brugt som en agil metode til at imødegå vandfaldsmetoder, hvor det første rigtige Scrum projekt udsprang\cite{ScrumHistory}.  Scrum har nogle vigtige terminologier, som er vigtige for forståelsen af hvordan tilgangen til et Scrum projekt fungerer. 
+Scrum var først introduceret tilbage i 1986, af 2 japanske business eksperter, der benyttede udtrykket som en form for produktudvikling, som skulle hjælpe med bedre organisering af projekter, samt skabe en form for overblik. Det var beskrevet, som en metode, der ville skabe mere fleksibilitet og hurtigere produktudvikling. Senere hen blev det brugt som en agil metode til at imødegå vandfaldsmetoder, hvor det første rigtige Scrum projekt udsprang\cite{ScrumHistory}. Scrum har nogle vigtige terminologier, som er vigtige for forståelsen af hvordan tilgangen til et Scrum projekt fungerer. 
 
 Disse terminologier er\cite{Sommerville}: 
 \begin{itemize}
     \item Development team, som en selvorganiserende gruppe af udviklere, hvis primære ansvar er at udvikle softwaren. Dette er ikke et stort team af udviklere. 
     
-    \item Potentially shippable product increment, det skal altid være klar til at blive indarbejdet ind i det slut produktet. Når incrementet er færdiggjort, skal der ikke længere testes eller arbejdes videre på det.
+    \item Potentially shippable product increment, betyder at produktet altid skal være klar til at blive indarbejdet ind i slut produktet. Når incrementet er færdiggjort, skal der ikke længere testes eller arbejdes videre på det.
     
-    \item Product Backlog, er en liste af alle genstandene, teamet skal gennemføre. Et Product Backlog kan indeholde mange forskellige genstande, så som funktionskrav, user stories, software arkitektur og generelle opgaver for at fuldføre projektet. 
+    \item Product Backlog, er en liste af alle features programmet skal have, som teamet skal gennemføre. En Product Backlog kan indeholde mange forskellige genstande, såsom funktionskrav, user stories, software arkitektur og generelle opgaver for at fuldføre projektet. 
 
+    \item Product Owner. Jobbet som Product Owner kan både være kunden, eller en manager, der står på at identificerer funktioner, krav, fejl og derefter prioritere alle disse ting. Product Owner skal gennemgå Product Backlog, samt opdatere den hele tiden, så det møder business kravene. 
     
-    \item Product owner. Jobbet som Produkt owner kan både være kunden, eller en manager, der står på at identificerer funktioner, krav, fejl og derefter prioritere alle disse ting. Produkt owner skal gennemgå Produkt Backlog, samt opdatere den hele tiden, så det møder business kravene. 
+    \item Daily Standup Meeting er de daglige Scrum møder, hvori teamet gennemgår opgaverne, hvad der er lavet, hvad der skal laves. Dette inkluderer som regel hele teamet, og er et forholdsvis hurtigt møde. 
     
-    \item Scrum. Hvad der menes med Scrum, er såkaldte daglige Scrum møder, hvori teamet gennemgår opgaverne, hvad der er lavet, hvad der skal laves. Dette inkluderer som reelt hele teamet, og er et forholdsvis hurtigt møde. 
+    \item Scrum Master er en person der holder styr på teamet. Det er lidt en mellemmand for udviklings teamet og Product Owner. Scrum Masterens hovedopgave, er at teamet ikke går ud af kurs, og har til ansvar at hjælpe udviklings teamet hvis de sidder fast. 
     
-    \item ScrumMaster. En ScrumMaster er en person der holder styr på teamet, det er lidt en mellemmand for både teamet og resten af firmaet. ScrumMasterens hoved opgave, er at teamet ikke går ud af kurs. 
+    \item Sprint. Et Sprint er en iteration, hvori teamet afsætter et bestemt antal timer til at udvikle alt fra funktioner til dokumentering. Disse Sprints er ofte 2 - 4 uger lange, og bliver fulgt på med et Sprint Review. 
     
-    \item Sprint. Et Sprint er en irritation, hvori teamet udvikler alt fra funktioner til dokumentering. Disse Sprints er ofte 2 - 4 uger lange. 
-    
-    \item Velocity. Velocity estimerer hvilke genstande fra Product Backloget teamet kan genneføre gennem et sprint.
+    \item Velocity er en estimering af hvor mange arbejdstimer der er tilgængelige i et sprint til at gennemføre opgaver fra Product Backlog.
 \end{itemize}
 
-Hvad der gør specifikt Scrum sen agile metode, er at den følger principperne, dog med fokus på at anbringe et framework, for hvordan et projekt organiseres. På figur 2.1, ses principperne for det agile manifest. Sammenlignet med terminologierne for oven er det tydeligt, at det følger det agile manifest.\cite{Sommerville}  
+Scrum er en agil metode, fordi den følger de agile principperne med sprints, dog med fokus på at anbringe et framework for hvordan et projekt organiseres. Sammenlignet med terminologierne for oven er det tydeligt, at det følger det agile manifest, som beskrevet i kapitel \ref{ch:processmodeller}.\cite{Sommerville}  
  
 
 \section{XP}
-
-Endnu en form for agile medtoder er, Extreme Programming (XP), som er en metode at lave software på, ved at tage alle de ting som virker og tage det så ekstremt som mulig, dette gør XP unik ift andre iterative udviklingsmetoder. Der findes også ligehedder mellem XP og andre, så som, at et team planlægger et stykke arbejde, som udarbejdes i løbet af nogle få uger, præcis som i Scrum, hvor man planlægger et sprint på få 2-4 uger. Et eksempel på hvordan XP tager ting til ekstremerne er, pair programming. Pair programming er en udviklings teknik, hvori 2 programmør sidder sammen om en computer. Den ene, driveren, er personen som skriver koden, den anden oberster hver enste linje af koden som driveren udvikler. Forskning har vist, at code reviews er en af de bedste metoder til ar finde fejl i koden, så derfor har XP pair programming.\cite{WhatisXP}
+Endnu en form for agil metode er, Extreme Programming (XP), der beskrives som værende en metode at lave software på, hvor man tager alle de ting som virker og så gøre det så ekstremt som muligt. Dette gør XP unik ift. andre iterative udviklingsmetoder. Der findes også ligheder mellem XP og Scrum, såsom at et team planlægger et stykke arbejde, der udarbejdes i løbet af nogle få uger. Dette er afspejlet i Scrum, hvor man planlægger et sprint på få 2-4 uger. Et eksempel på hvordan XP tager ting til ekstremerne er pair programming. Pair programming er en udviklingsteknik, hvor 2 programmører sidder sammen om én computer. Den ene, driveren, er personen som skriver koden. Den anden, også kaldet navigatøren, overser hver eneste linje af koden som driveren udvikler. Forskning har vist, at code reviews er en af de bedste metoder til ar finde fejl i koden, så derfor har XP pair programming.\cite{WhatisXP}
 
 XP, blev først brugt i et projekt 6. Marts 1996. Siden hen, har det vist sig, at være meget succesfuld, i mange forskellige virksomheder, rundt omkring i verden. Snakkes der om XP, er der nogle bestemte værdier og principper man skal tage i betragtning, dette vil være XP’s 5 værdier og 12 praktikker. Med de 5 værdier og 12 praktikker, kan et projekt forbedres markant bedre, da XP sætter fokus i, konstant kommunikation med kunden og egne udviklere. Det er succesfuld, da det bygger på kundens tilfredstillelse, og det gør dette ved at give kunden hvad kunden har brug for, derved vil XP også skabe en hvis fleksibel rutine, hvis kunden kommer med nye krav for enden af en cyklus. 
 
@@ -51,13 +49,10 @@ De 5 værdier:
 \end{itemize}
 
 De 12 praktikker: 
-
-
-
 \begin{itemize}
     \item Planning game
 
-    \item Smal realeases
+    \item Small releases
   
     \item Metaphor
 
@@ -71,38 +66,31 @@ De 12 praktikker:
 
     \item Collective ownership
    
-    \item Continuos integration 
+    \item Continuous integration 
 
     \item 37 hour workweek 
 
     \item On-site customer 
     
-    \item along Coding standarts 
-
-
+    \item Coding standards 
 \end{itemize}
 
-XP minder generelt meget om Scrum, de kræver begge teams til at arbejde iterativt og med tæt samarbejde. Hvor de afviger er pratikker så som Continues Intergration, Refactoring og Pair Programming, som er essentielle for at få den iterative proces til at virke. Hvis en af praktikkerne i XP lider, så kommer resten til at lide. 
-
-
+XP minder generelt meget om Scrum, da de begge kræver teams til at arbejde iterativt og med tæt samarbejde. Hvor de afviger er praktikkerne såsom Continuous Integration, Refactoring og Pair Programming, som er essentielle for at få den iterative proces til at virke. Hvis en af praktikkerne i XP lider, så kommer resten til at lide. 
 
 \section{Kanban}
 
-Den sidste form for agile metoder der vil tages i overvejelse er Kanban. Kanban kommer originalt fra Toyota, som et lidt af en grundprincip for lean developtment og noget andet, som kaldes for JIT (Just in time). \cite{SlideKanban} Udvikler et team i Kanban, så skal teamet kun fokuserer på Kanbans tre regler, i modsætning til Scrum som har ni regler og XP med 13.        De tre regler siger følgende: 
+Den sidste form for agile metoder der vil tages i overvejelse er Kanban. Kanban kommer originalt fra Toyota, som er lidt af en grundprincip for lean development og JIT (Just in time)\cite{SlideKanban}. Udvikler et team med Kanban, så skal teamet kun fokuserer på Kanbans tre regler, i modsætning til Scrums ni regler og XP med 13. De tre regler siger følgende: 
 
-1. Visualise the workflow. (Som er dit Kanban board)
+1. Visualize the workflow. (Som er dit Kanban board)
 
 2. Limit WIP. (work in Progress)
 
 3. Measure average lead time.
 
-Så, Start med at visualiser dit Kanban board (som minder om et scrum board). Efterfuldt af dette, så skal der sættes en grænse for hvor mange opgaver eller genstande, der må være i de forskellige kategorier på dit board (WIP). Denne er vigtigt, for i Kanban, når man er færdig med en opgave, så tilføjer man en ny i ‘ongoing’ kategorien, imodsætning til Scrum, hvori man venter med at sprintet for at tilføje nye opgaver fra produkt backlogge. Med andre ord, Scum: Nye prioriteter, når sprintet ender. Kanban: Nye prioriteter når der er plads til det.\cite{SlideKanban} WIP sørger nemlig for at, hvis noget går i stå vil der ikke være en overbelastning af gentande at arbejde med, så når grænsen for WIP er nået må der ikke tilføjes flere genstande før opgaverne er løst. Men så enkelt er det heller ikke, for hvis WIP er for lille ender teamet med udviklere uden noget at give sig til, og hvis det er for stort så skær der en overbelastning. Frihedens kommer i at teamet kan eksperimenter, hvad der vil virke og hvad der ikke vil. 
-
+Start med at visualiser dit Kanban board (som minder om et Scrum board). Efterfulgt af dette, så skal der sættes en grænse for hvor mange opgaver eller genstande, der må være i de forskellige kategorier på dit board (WIP). Denne er vigtigt, for i Kanban, når man er færdig med en opgave, så tilføjer man en ny opgave i ‘ongoing’ kategorien. I modsætning til Scrum, hvor man venter til det igangværende sprint er færdigt før der tilføjes nye opgaver fra Product Backloggen. Med andre ord, Scrum: Nye prioriteter, når sprintet ender. Kanban: Nye prioriteter når der er plads til det.\cite{SlideKanban} WIP sørger nemlig for at, hvis noget går i stå vil der ikke være en overbelastning af gentande at arbejde med, så når grænsen for WIP er nået må der ikke tilføjes flere genstande før opgaverne er løst. Men så enkelt er det heller ikke, for hvis WIP er for lille ender teamet med udviklere der ikke har noget at give sig til, og hvis det er for stort så skær der en overbelastning. Friheden kommer i at teamet kan eksperimentere, og finde ud hvad der vil virke og hvad der ikke vil. 
 
 \section{Metode valg}
+Nu hvor 3 forskellige metoder for en agil tilgang er beskrevet, kan gruppen overveje hvilke metoder der skal følges i dette projekt. Her er der en bestemt faktor, som er vigtigt for beslutningen, nemlig at teamet tidligere ikke har arbejdet med agile metoder før. Så hvis teamet ikke har tidligere erfaring med agile metoder, vil det optimale være, at sørge for at der ikke er for få regler, da dette højst sandsynligt vil forsage en ustabil og uklar udvikling af projektet. Derfor vil Kanban udelukkes, da der kun er få regler at følge, hvilket kan skabe ustabilitet for teamet, der ikke har benyttet agile metoder førhen. Nu hvor Kanban er udelukket er der nu XP og Scrum. Her vil Scrum være et godt valg for gruppen, da det har en fast tilgang til hvordan man håndterer en agil tilgang, samt nogle faste regler og roller. Praktikker såsom daily Scrum, hvor gruppen møder først på dagen i et kort møde og opdaterer hinanden vil have en høj værdi, især for en gruppe der er nye til den agile tilgang. Rollerne kan fordeles til gruppens styrker og svagheder også. Hertil vil gruppen eksperimentere med elementer, såsom velocity og faste sprints, og derved også udvide forståelsen og erfaringer med agile metoder. Hertil vurderes XP også til at skabe en god værdi for gruppen, da XP har bestemte praktikker, såsom pair programming, planning game og Test Driven Development. Eftersom Scrum er en projekthåndteringsmetode og XP fokuserer på selve metoden, har gruppen konkluderet at en sammensætning af Scrum og XP vil skabe den bedste værdi for teamet. 
 
-
-Nu hvor 3 forskellige metoder for en agil tilgang er kort beskrevet, kan gruppen overveje hvilken tilgang der besluttes for. Her er der en bestemt faktor, som er vigtigt for beslutningen, nemlig at teamet tidligere ikke har arbejdet med agile metoder før. Så, hvis teamet ikke er bekendt med agile metoder, vil det optimale være, at sørge for det ikke skal være for få regler, for vil højst sandsygeligt forsage et ustabil projekt. Derfor vil Kanban udelukkes, da der kun er få regler at følge, vil dette skabe ustabilitet for et teamet der ikke har benyttet agile metoder førhen. Nu hvor Kanban er udelukket er gruppen forladt med XP og Scrum. Her vil Scrum være et godt valg for gruppen, da det har en fast tilgang til hvordan man håndterer en agil tilgang, samt nogle faste regler og roller. Genstande, så som daily scrum, hvor gruppen møder først på dagen i et kort møde og opdater hinanden vil have en høj værdi, især for en gruppe der et ny til agile tilgange. Rollerne kan fordeles til gruppens styrker og svageheder også. Hertil vil gruppen eksperimenter med elementer, så som velocity og faste sprints, derfor også udvide forståelsen og erfaringer med agile metoder. Hertil vurderes XP også til at skabe en god værdi for gruppen, da XP har bestemte praktikker, så som Pair Programming, Planning game og Test Driven Development. Eftersom, at Scrum er en projekt håndterings metode og XP fokuser på selve metoden, har gruppen konkluderet at en sammensætning af Scrum og XP vil skabe den bedste værdi for teamet. 
-
-I næste afnist er fokuset lagt i hvordan gruppen har håndteret brugen af Scrum og XP, med eksempler fra projekt forløbet. 
+I næste afsnit er fokuset lagt på hvordan gruppen har håndteret brugen af Scrum og XP, med eksempler fra projektforløbet. 
 
